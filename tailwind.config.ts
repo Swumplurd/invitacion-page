@@ -17,6 +17,9 @@ const config: Config = {
       aspectRatio: {
         '21/7': '21/7',
       },
+      fontFamily: {
+        great: ['var(--font-great)'],
+      },
     },
   },
   plugins: [],

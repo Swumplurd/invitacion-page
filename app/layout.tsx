@@ -1,5 +1,12 @@
 import "./globals.css";
+import { Great_Vibes } from "next/font/google";
 import type { Metadata } from "next";
+
+const great = Great_Vibes({
+  weight: "400",
+  subsets: ["latin"],
+  variable: '--font-great'
+});
 
 export const metadata: Metadata = {
   title: "Invitaciones • Inicio",
@@ -13,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="es">
+    <html className={great.variable} lang="es">
       <body className="bg-secondary">{children}</body>
     </html>
   );
