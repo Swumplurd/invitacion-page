@@ -26,7 +26,7 @@ export default function RootLayout({
       <Head>
         <meta property="og:title" content="Invitacion • Ana Fernanda"/>
         <meta property="og:description" content="Invitacion especial para el Baby Shower de Ana Fernanda, por favor entra al link y confirma tu asistencia"/>
-        <meta property="og:image" content="https://img.freepik.com/free-vector/flat-design-bear-family-illustration_23-2149539186.jpg"/>
+        <meta property="og:image" content="https://i.pinimg.com/474x/e0/c9/f4/e0c9f4a97de797ddcc1af07d61236ce7.jpg"/>
         <meta property="og:url" content="https://invitacion-ana-fernanda.vercel.app/"/>
       </Head>
       <body className="bg-brown-dark">{children}</body>
