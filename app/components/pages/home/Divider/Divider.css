@@ -1,0 +1,28 @@
+.custom-shape-divider-top-1696703180 {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1696703180 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 90px;
+}
+
+.custom-shape-divider-top-1696703180 .shape-fill {
+    fill: #E7D1BA;
+}
+
+.custom-shape-divider-top-1696703180 .shape-fill-2 {
+    fill: #8D7B68;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1696703180 svg {
+        width: calc(160% + 1.3px);
+        height: 50px;
+    }
+}

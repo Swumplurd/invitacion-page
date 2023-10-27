@@ -3,23 +3,21 @@
 import { useEffect, useState } from "react";
 
 export const useCountdown = (fechaObjetivo: string) => {
-  const [countdown, setCountdown] = useState(
-    new Date(fechaObjetivo).getTime() - new Date().getTime()
-  );
+  const targetDate = new Date(fechaObjetivo).getTime();
+  const [countdown, setCountdown] = useState(targetDate - new Date().getTime());
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCountdown(new Date(fechaObjetivo).getTime() - new Date().getTime());
+      setCountdown(targetDate - new Date().getTime());
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [new Date(fechaObjetivo).getTime()]);
+  }, [targetDate]);
 
   return getReturnValues(countdown);
 };
 
 const getReturnValues = (countDown: any) => {
-  // calculate time left
   const days = Math.floor(countDown / (1000 * 60 * 60 * 24));
   const hours = Math.floor(
     (countDown % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)

@@ -1,8 +1,24 @@
-.neumorph {
-  border-radius: 50px;
-  background: #e7daee;
-  box-shadow: 20px 20px 60px #c4b9ca, -20px -20px 60px #fffbff;
-  background: url(/img/backgrounds/polygon.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+@media (min-width: 790px) {
+  .custom-width {
+    width: calc(100% / 1.8);
+  }
+}
+
+body.swal2-shown > [aria-hidden="true"] {
+  transition: 0.1s filter;
+  filter: blur(10px);
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  background-image: url("/img/backgrounds/stars.svg");
 }

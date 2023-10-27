@@ -1,6 +1,7 @@
-import "./globals.css";
-import { Great_Vibes } from "next/font/google";
 import type { Metadata } from "next";
+import { Great_Vibes } from "next/font/google";
+
+import "./globals.css";
 
 const great = Great_Vibes({
   weight: "400",
@@ -9,9 +10,9 @@ const great = Great_Vibes({
 });
 
 export const metadata: Metadata = {
-  title: "Invitaciones • Inicio",
+  title: "Invitacion • Ana Fernanda",
   description:
-    "Obten invitaciones 100% amigables con el medio ambiente e interactivas para todos tus eventos especiales.",
+    "Invitacion especial para el Baby Shower de Ana Fernanda, por favor entra al link y confirma tu asistencia",
 };
 
 export default function RootLayout({
@@ -21,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html className={great.variable} lang="es">
-      <body className="bg-secondary">{children}</body>
+      <body className="bg-brown-dark">{children}</body>
     </html>
   );
 }
