@@ -5,7 +5,7 @@ import Image from "next/image";
 import Swal from "sweetalert2";
 
 import "./page.css";
-import { Asistencia, Countdown, Divider, DividerBottom, Ubicacion } from "./components/pages/home";
+import { Asistencia, Countdown, Divider, DividerBottom, Fotos, Ubicacion } from "./components/pages/home";
 
 const styles = {
   backgroundImage: "url(/img/fondo-invitacion2.png)",
@@ -32,7 +32,7 @@ export default function Invitacion() {
 
   return (
     <>
-      <main>
+      <main className="mb-3">
         <audio src="howl.mp3" autoPlay loop></audio>
         <div style={styles}>
           <Divider fill={"shape-fill-2"} />
@@ -55,6 +55,7 @@ export default function Invitacion() {
             height={100}
           />
           <Ubicacion />
+          <Fotos/>
           <Asistencia/>
         </div>
       </main>
