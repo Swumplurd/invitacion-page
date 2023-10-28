@@ -1,6 +1,6 @@
 
 const styles = {
-  backgroundImage: "url(/img/amor.jpg)",
+  backgroundImage: "url(/img/amor.png)",
   backgroundSize: "cover",
   backgroundPosition: "center",
   width: "100%",
