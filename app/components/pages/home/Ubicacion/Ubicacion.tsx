@@ -5,7 +5,7 @@ const googleEventURL =
 export const Ubicacion = () => {
   const handleToggle = () => {
     Swal.fire({
-      title: "Recepcion",
+      title: "Recepción",
       confirmButtonColor: "#8D7B68",
       background: "#e7d1ba",
       backdrop: "blur",

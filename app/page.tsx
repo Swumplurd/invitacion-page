@@ -37,7 +37,7 @@ export default function Invitacion() {
         <div style={styles}>
           <Divider fill={"shape-fill-2"} />
           <div className="flex flex-col h-full justify-between py-12 w-full">
-            <h1 className="text-6xl drop-shadow-2xl md:text-7xl text-center font-extrabold mx-auto font-great">
+            <h1 className="text-5xl drop-shadow-2xl md:text-7xl text-center font-extrabold mx-auto font-great">
               Baby Shower de Ana Fernanda
             </h1>
 
