@@ -33,7 +33,7 @@ export default function Invitacion() {
   return (
     <>
       <main className="mb-3">
-        <audio src="howl.mp3" autoPlay loop></audio>
+        <audio src="/audio/howl.mp3" autoPlay loop></audio>
         <div style={styles}>
           <Divider fill={"shape-fill-2"} />
           <div className="flex flex-col h-full justify-between py-12 w-full">

@@ -7,8 +7,17 @@ export const Fotos = () => {
         Album Fotografico de Ana Fernanda
       </h2>
       <div className="flex flex-col gap-4">
-        <Image className="rounded-xl" alt="ana fernanda" src={"/corazon.gif"} width={1920} height={100} />
-        <Image className="rounded-xl" alt="ana fernanda" src={"/bebe.gif"} width={1920} height={100} />
+        <Image className="rounded-xl" alt="ana fernanda" src={"/img/bebe/corazon.gif"} width={1920} height={100} />
+        <Image className="rounded-xl" alt="ana fernanda" src={"/img/bebe/bebe.gif"} width={1920} height={100} />
+        <Image className="rounded-xl" alt="ana fernanda" src={"/img/bebe/bebe1.gif"} width={1920} height={100} />
+        <Image className="rounded-xl" alt="ana fernanda" src={"/img/bebe/bebe2.gif"} width={1920} height={100} />
+        <Image className="rounded-xl" alt="ana fernanda" src={"/img/bebe/bebe1.png"} width={1920} height={100} />
+        <Image className="rounded-xl" alt="ana fernanda" src={"/img/bebe/bebe2.png"} width={1920} height={100} />
+        <Image className="rounded-xl" alt="ana fernanda" src={"/img/bebe/bebe3.png"} width={1920} height={100} />
+        <Image className="rounded-xl" alt="ana fernanda" src={"/img/bebe/bebe4.png"} width={1920} height={100} />
+        <Image className="rounded-xl" alt="ana fernanda" src={"/img/bebe/bebe5.png"} width={1920} height={100} />
+        <Image className="rounded-xl" alt="ana fernanda" src={"/img/bebe/bebe6.png"} width={1920} height={100} />
+        <Image className="rounded-xl" alt="ana fernanda" src={"/img/bebe/bebe7.png"} width={1920} height={100} />
       </div>
     </>
   );
