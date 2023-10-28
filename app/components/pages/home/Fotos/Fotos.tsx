@@ -27,9 +27,6 @@ export const Fotos = () => {
               <Image className="rounded-xl" alt="foto de ana fernanda" src={"/img/bebe/bebe1.gif"} width={1920} height={100} />
             </SwiperSlide>
             <SwiperSlide className="">
-              <Image className="rounded-xl" alt="foto de ana fernanda" src={"/img/bebe/bebe2.gif"} width={1920} height={100} />
-            </SwiperSlide>
-            <SwiperSlide className="">
               <Image className="rounded-xl" alt="foto de ana fernanda" src={"/img/bebe/bebe1.png"} width={1920} height={100} />
             </SwiperSlide>
             <SwiperSlide className="">
@@ -40,6 +37,9 @@ export const Fotos = () => {
             </SwiperSlide>
             <SwiperSlide className="">
               <Image className="rounded-xl" alt="foto de ana fernanda" src={"/img/bebe/bebe4.png"} width={1920} height={100} />
+            </SwiperSlide>
+            <SwiperSlide className="">
+              <Image className="rounded-xl" alt="foto de ana fernanda" src={"/img/bebe/bebe2.gif"} width={1920} height={100} />
             </SwiperSlide>
             <SwiperSlide className="">
               <Image className="rounded-xl" alt="foto de ana fernanda" src={"/img/bebe/bebe5.png"} width={1920} height={100} />
