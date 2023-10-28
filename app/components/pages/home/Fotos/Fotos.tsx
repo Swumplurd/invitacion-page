@@ -15,8 +15,6 @@ export const Fotos = () => {
       <div className="flex flex-col gap-4">
         <Image className="rounded-xl" alt="gif del corazon de ana fernanda" src={"/img/bebe/corazon.gif"} width={1920} height={100} />
         <Image className="rounded-xl" alt="gif de ana fernanda moviendose" src={"/img/bebe/bebe.gif"} width={1920} height={100} />
-        <Image className="rounded-xl" alt="foto de ana fernanda" src={"/img/bebe/bebe1.gif"} width={1920} height={100} />
-        <Image className="rounded-xl" alt="foto de ana fernanda" src={"/img/bebe/bebe2.gif"} width={1920} height={100} />
 
         <div className="overflow-hidden">
           <Swiper
@@ -25,6 +23,12 @@ export const Fotos = () => {
           modules={[EffectCards]}
           className="mySwiper w-full"
           >
+            <SwiperSlide className="">
+              <Image className="rounded-xl" alt="foto de ana fernanda" src={"/img/bebe/bebe1.gif"} width={1920} height={100} />
+            </SwiperSlide>
+            <SwiperSlide className="">
+              <Image className="rounded-xl" alt="foto de ana fernanda" src={"/img/bebe/bebe2.gif"} width={1920} height={100} />
+            </SwiperSlide>
             <SwiperSlide className="">
               <Image className="rounded-xl" alt="foto de ana fernanda" src={"/img/bebe/bebe1.png"} width={1920} height={100} />
             </SwiperSlide>
