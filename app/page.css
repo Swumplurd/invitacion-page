@@ -22,3 +22,7 @@ body.swal2-shown > [aria-hidden="true"] {
 section {
   background-image: url("/img/backgrounds/stars.svg");
 }
+
+.text-shadow {
+  text-shadow: 4px 4px 8px rgb(0, 0, 0);
+}
