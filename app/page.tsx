@@ -5,7 +5,7 @@ import Image from "next/image";
 import Swal from "sweetalert2";
 
 import "./page.css";
-import { Asistencia, Countdown, Divider, DividerBottom, Fotos, Ubicacion } from "./components/pages/home";
+import { Asistencia, Countdown, Divider, DividerBottom, Fotos, Frase, Ubicacion } from "./components/pages/home";
 
 const styles = {
   backgroundImage: "url(/img/fondo-invitacion2.png)",
@@ -57,6 +57,7 @@ export default function Invitacion() {
           <Ubicacion />
           <Fotos/>
           <Asistencia/>
+          <Frase/>
         </div>
       </main>
     </>
